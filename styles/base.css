@@ -3,8 +3,6 @@
     --primary-color: white;
     --secondary-color: darkblue;
     --third-color: blue;
-    --headingfont: "Open Sans", sans-serif;
-    --bodyfont: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 * {
@@ -13,6 +11,8 @@
     background-color: var(--primary-bg-color);
     color: var(--primary-color);
     max-width: 840px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: <weight>;
 }
 
 nav {
@@ -21,7 +21,6 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font: var(--bodyfont);
 }
 
 nav a:hover {
@@ -111,8 +110,4 @@ footer {
     background-color: var(--secondary-color);
     width: 400px;
     margin-left: 200px;
-}
-
-p {
-    font: var(--bodyfont)
 }
