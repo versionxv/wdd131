@@ -12,7 +12,7 @@
     color: var(--primary-color);
     max-width: 840px;
     font-family: "Open Sans", sans-serif;
-    font-weight: <weight>;
+    font-weight: weight;
 }
 
 nav {
