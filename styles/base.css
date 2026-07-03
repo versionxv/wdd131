@@ -3,7 +3,7 @@
     --primary-color: white;
     --secondary-color: darkblue;
     --third-color: blue;
-    --headingfont: 'open sans', Times, serif;
+    --headingfont: "Open Sans", sans-serif;
     --bodyfont: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -14,8 +14,6 @@
     color: var(--primary-color);
     max-width: 840px;
 }
-
-@import url('https://googleapis.com');
 
 nav {
     display: flex;
