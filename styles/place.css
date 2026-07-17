@@ -42,3 +42,7 @@ h2 {
 .data, .info {
     margin: 0 auto;
 }
+
+.first, .second {
+    padding: 5px 1px 20px 1px;
+}
