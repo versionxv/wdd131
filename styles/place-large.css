@@ -1,0 +1,38 @@
+@media (min-width: 37.5em) {
+	
+    header {
+        display: block;
+    }
+
+    .weather {
+        display: none;
+    }
+
+    .hero img {
+        position: relative;
+        width: 70vw;
+        height: auto;
+        margin: 0 auto;
+        margin-left: 15%;
+    }
+
+    .first, .second {
+        position: absolute;
+        border: 1px solid black;
+    }
+
+    .first {
+        top: 15%;
+        left: 8%;
+    }
+
+    .second {
+        bottom: 15%;
+        right: 8%;
+    }
+
+    h2 {
+        background-color: transparent;
+        background: none;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+</head>
+<body class="center">
+
+    <header>
+        <h1>Japan</h1>
+    </header>
+
+  <picture class="hero">
+        <source srcset="./images/fuji-phone-view.webp" media="(max-width: 600px)">
+        <source srcset="./images/fuji-wide-view.webp" media="(min-width: 601px)">
+        <img src="images/fuji-phone-view.webp" alt="A beautiful view of Mount Fuji-san, iconic landmark of Japan">
+    </picture>
+    
+    <div class="first">
+        <h2>Data</h2>
+        <table class="data">
+            <tr><th>Area</th><td>Xxxxx</td></tr>
+            <tr><th>Population</th><td>XXXX</td></tr>
+            <tr><th>Capital</th><td>Xxxxx</td></tr>
+            <tr><th>Lenguages</th><td>Xxxxx</td></tr>
+            <tr><th>Currency</th><td>Xxxxx</td></tr>
+            <tr><th>Time Zone</th><td>Xxxxx</td></tr>
+            <tr><th>Calling Code</th><td>Xxxxx</td></tr>
+            <tr><th>Internet TLD</th><td>Xxxxx</td></tr>
+        </table>
+    </div>
+    
+    <div class="second">
+        <h2>Weather</h2>
+        <div class="weather">
+            <img src="images/weather-icon.svg" alt="Emoji Weather Icon of a Cloud with the Sun">
+        </div>
+        <table class="info">
+            <tr><th>Temperature</th><td>Xxxxx</td></tr>
+            <tr><th>Conditions</th><td>Xxxxx</td></tr>
+            <tr><th>Wind</th><td>Xxxxx</td></tr>
+            <tr><th>Wind Chill</th><td>Xxxxx</td></tr>
+        </table>
+    </div>
+</main>
+
+    <footer><p>©<span id="currentyear"></span>— Miguel J. Subero Saballo — Brasil</p>
+    <p>Last Modified:<span id="lastmodified"></span></p></footer>
+    
+</body>
+</html>

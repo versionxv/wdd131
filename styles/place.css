@@ -1,0 +1,44 @@
+:root {
+    --primary-color: pink;
+}
+
+* {
+    background-color: var(--primary-color);
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border: 1px solid black;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.hero img{
+    width: 99vw;
+    height: auto;
+    padding: 2px;
+}
+
+.weather img, .weather {
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.data, .info {
+    margin: 0 auto;
+}
