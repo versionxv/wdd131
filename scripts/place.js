@@ -10,18 +10,7 @@ const tempC = -5;
 
 const windKmh = 25;
 
-function calculateWindChill(tempC, windKmh) {
-    if (tempC > 10 || windKmh < 4.8)
-    {
-        return "Wind chill doesn't apply in these conditions.";
-    }
-
-    const vFactor = Math.pow(windKmh, 0.16);
-
-    const windChill = 13.12 + (0.6215 * tempC) - (11.37 * vFactor) + (0.3965 * tempC * vFactor);
-   
-    return Math.round(windChill * 10)/10;
-}
+const calculateWindChill = (t, w) => (t > 10 || w < 4.8) ? "Wind chill doesn't apply in these conditions." : Math.round((13.12 + 0.6215 * t - 11.37 * Math.pow(w, 0.16) + 0.3965 * t * Math.pow(w, 0.16)) * 10) / 10;
 
 document.getElementById("windchill").innerText = calculateWindChill(tempC, windKmh) + " ºC";
 
