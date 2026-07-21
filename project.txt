@@ -1,0 +1,29 @@
+Made by Miguel J. Subero Saballo
+
+Project Name: Favorite games website.
+
+Subject: The content of the page will be a review and details of 2 of my favorite games.
+
+Content:
+
+    The first page is gonna server as home page and will also describe what types of
+    games I like and why I do like them.
+    
+    Then the other 2 pages will display two major of my favorite games in detail, have
+    a review, some interesting facts and the user will be able to have some input in order
+    to receieve a simple answer.
+
+    Game A is gonna be Blazblue Central Fiction
+
+    Game B is going to be Pokémon Reloaded
+
+
+Reason:
+
+    I personally think is gonna help me prepare to creating websites to showcase stuff.
+    Starting with games can make it fun and simple. In the future I'll surely need to
+    create my own site to advertise myself and my web development skills, interest and
+    several other in order to get a better chance as a developer in any due business.
+
+    I will have to display images, move stuff around and organize an actual review of the
+    two games for this.
