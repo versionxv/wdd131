@@ -33,8 +33,8 @@ body {
 }
 
 img {
-    max-width: 240px;
-    height: auto;
+    width: 240px;
+    height: 150px;
     border: 1px solid var(--primary-color);
 }
 
@@ -92,4 +92,14 @@ nav a:hover {
 
 .open a {
 	display: block;
+}
+
+section {
+    border: 1px solid white;
+    width: 260px;
+    height: 360px;
+}
+
+section p {
+    font-size: 15px;
 }
