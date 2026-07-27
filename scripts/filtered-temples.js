@@ -85,6 +85,13 @@ const temples = [
     dedicated: "2004, February, 22",
     area: 59246,
     imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/_temp/017-S%C3%A3o-Paulo-Brazil-Temple.jpg"
+  },
+  {
+    templeName: "Fortaleza Brazil Temple",
+    location: "Fortaleza, Brazil",
+    dedicated: "2019, June, 02",
+    area: 36000,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/fortaleza-brazil-temple/fortaleza-brazil-temple-5569-main.jpg"
   }
 ];
 
