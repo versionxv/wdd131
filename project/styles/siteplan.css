@@ -28,23 +28,36 @@
 
 .mcolor {
     background-color: var(--main-color);
-    color: var(--main-color);
     border: 1px solid white;
+    padding: 5px;
 }
 
 .bcolor {
     background-color: var(--color-B);
-    color: var(--color-B);
-    border: 1px solid gray;
+    border: 1px solid white;
+    padding: 5px;
 }
 
 .rcolor {
     background-color: var(--color-R);
-    color: var(--color-R);
-    border: 1px solid gray;
+    border: 1px solid white;
+    padding: 5px;
 }
 
 .white {
     background-color: var(--letters);
     border: 1px solid gray;
+    color: black;
+    padding: 5px;
+}
+
+.mainbox {
+    display: flex;
+    flex-flow: row;
+}
+
+img {
+    width: 240px;
+    height: auto;
+    border: 1px solid white;
 }
