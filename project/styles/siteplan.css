@@ -56,8 +56,20 @@
     flex-flow: row;
 }
 
+.mainbox h3, .mainbox h4 {
+    border: 1px solid white;
+}
+
 img {
     width: 240px;
     height: auto;
     border: 1px solid white;
+}
+
+.reloaded h3, .reloaded h4 {
+    background-color: var(--color-R);
+}
+
+.blazblue h3, .blazblue h4 {
+    background-color: var(--color-B);
 }
