@@ -1,0 +1,50 @@
+:root {
+    --main-color: black;
+    --color-B: darkblue;
+    --color-R: darkred;
+    --letters: white;
+}
+
+* {
+    margin: 5px auto;
+    max-width: 840px;
+    text-align: center;
+    padding: 2px;
+    background-color: var(--main-color);
+    color: var(--letters);
+}
+
+.title {
+    font-size: larger;
+}
+
+.typo {
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.look p {
+    width: 300px;
+}
+
+.mcolor {
+    background-color: var(--main-color);
+    color: var(--main-color);
+    border: 1px solid white;
+}
+
+.bcolor {
+    background-color: var(--color-B);
+    color: var(--color-B);
+    border: 1px solid gray;
+}
+
+.rcolor {
+    background-color: var(--color-R);
+    color: var(--color-R);
+    border: 1px solid gray;
+}
+
+.white {
+    background-color: var(--letters);
+    border: 1px solid gray;
+}
