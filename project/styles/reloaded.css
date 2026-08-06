@@ -1,0 +1,59 @@
+:root {
+    --main-color: black;
+    --color-B: darkblue;
+    --color-R: darkred;
+    --letters: white;
+    --font: 'Zen Kurenaido', sans-serif;
+}
+
+body {
+    display: block;
+    margin: 0 auto;
+    max-width: 840px;
+    background-color: var(--main-color);
+    color: var(--letters);
+    text-align: center;
+    font-family: var(--font)
+}
+
+main {
+    font: var(--font);
+    padding-top: 80px;
+}
+
+.bar {
+    display: flex;
+    flex-flow: row;
+    font-family: var(--font);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--main-color);
+}
+
+h1 {
+    border: 1px solid var(--letters);
+    width: 33%;
+    height: 50px;
+    font-size: 26px;
+}
+
+.b {
+    background-color: var(--color-B);
+}
+
+.r {
+    background-color: var(--color-R);
+}
+
+a {
+    text-decoration: none;
+    color: var(--letters);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--letters);
+}
