@@ -64,14 +64,16 @@ header a {
     justify-content: space-evenly;
 }
 
-.title img, .mai img {
+.title img {
     width: 30%;
     height: auto;
     border: 1px solid var(--letters);
 }
 
-.mai img {
-    margin: 5px 0px 0px 30px;
+.test img {
+    width: 150%;
+    transform: translateX(-50%);
+    border: 1px solid var(--letters);
 }
 
 .title h2 {
@@ -100,6 +102,10 @@ header a {
 
 .char p {
     max-width: 60%;
+}
+
+.char video {
+    display: none;
 }
 
 .results img 
@@ -132,26 +138,45 @@ header a {
     margin: 40px 0px 0px 25px;
 }
 
+.clip {
+    display: flex;
+    flex-flow: column;
+}
+
+.clip video {
+    margin: 0 auto;
+    padding: 5px;
+}
+
 @media (min-width: 37.5em) {
 	
-   .bar {
-    max-width: 80%;
-    left: 10%;
-   }
-   
-    .entry img {
-    max-width: 60%;
-    height: auto;
-    margin: 15px;
+   .links {
+    margin-bottom: 6%;
+    margin-left: 10%;
    }
 
-   .entry {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
+   .end p {
+    margin-top: 4%;
+    margin-left: 8%;
    }
 
-   .text {
-    max-width: 40%;
+   .mai img {
+    position: relative;
+   }
+
+   .char video {
+    display: block;
+    width: 60%;
+   }
+
+   .extra 
+   {
+    width: 70%;
+    transform: translateX(20%);
+   }
+
+   .test img {
+    width: 70%;
+    transform: translateX(0%);
    }
 }

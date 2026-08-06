@@ -10,39 +10,28 @@ function editInfo() {
 
 editInfo();
 
-const clientId = 'YOUR_CLIENT_ID';
-const clientSecret = 'YOUR_CLIENT_SECRET';
-const username = 'YOUR_TWITCH_USERNAME';
+const videos = ["videos/burst-bait.mp4", "videos/calculated.mp4"];
 
-async function checkStreamAndEmbed() {
-    try {
-        const tokenResponse = await fetch(`https://twitch.tv{clientId}&client_secret=${clientSecret}&grant_type=client_credentials`, {
-            method: 'POST'
-        });
-        const tokenData = await tokenResponse.json();
-        const accessToken = tokenData.access_token;
+function loadRandomClip() {
+    const randomIndex = Math.floor(Math.random() * videos.length);
+    const clipbox = document.getElementById("clip");
 
-        const streamResponse = await fetch(`https://twitch.tv{username}`, {
-            headers: {
-                'Client-ID': clientId,
-                'Authorization': `Bearer ${accessToken}`
-            }
-        });
-        const streamData = await streamResponse.json();
-
-        if (streamData.data && streamData.data.length > 0) {
-            new Twitch.Player("twitch-embed", {
-                channel: username,
-                width: "100%",
-                height: 480,
-                parent: [window.location.hostname]
-            });
-        } else {
-            document.getElementById('offline-message').style.display = 'block';
-        }
-    } catch (error) {
-        console.error("Error fetching Twitch stream status:", error);
+    if (clipbox) {
+        clipbox.src = videos[randomIndex];
+        clipbox.load();
     }
 }
 
-window.addEventListener('DOMContentLoaded', checkStreamAndEmbed);
+window.addEventListener('DOMContentLoaded', loadRandomClip);
+
+function randomButton() {
+    const button = document.createElement("button");
+    const box = document.getElementById("container");
+
+    button.textContent = "Randomizer clip";
+
+    button.onclick = loadRandomClip;
+    box.appendChild(button);
+}
+
+randomButton();
