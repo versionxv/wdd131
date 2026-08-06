@@ -68,6 +68,7 @@ header a {
     width: 30%;
     height: auto;
     border: 1px solid var(--letters);
+    margin-top: 10px;
 }
 
 .test img {
