@@ -180,4 +180,9 @@ header a {
     width: 70%;
     transform: translateX(0%);
    }
+
+   .title h2 {
+    height: 60px;
+    transform: translateY(30px);
+   }
 }
